@@ -1,0 +1,37 @@
+name = Business Connect
+description = A flexible theme for business connect.
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.jpg
+
+stylesheets[all][] = css/ie7.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/superfish.css
+;scripts[] = js/jquery-1.4.4.js
+;scripts[] = js/superfish.js
+
+regions[sidebar_left] = Left sidebar
+regions[sidebar_right] = Right sidebar
+regions[header_right] = Header Right
+
+regions[navigation] = Menu
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[user1] = User 1
+regions[user2] = User 2
+regions[user3] = User 3
+regions[fcolumn1] = Footer column 1
+regions[fcolumn2] = Footer column 2
+regions[fcolumn3] = Footer column 3
+regions[footer-menu] = Footer Menu
+regions[footer-content] = Footer content
+
+;theme settings default values
+settings[slideshow]   = yes
+
+
+
+
+

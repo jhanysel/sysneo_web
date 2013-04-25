@@ -1,0 +1,20 @@
+/**
+ * @package Business Connect Business Theme - Adodis Drupal Theme
+ * @version 1.1 April 28, 2011
+ * @author Adodis Theme http://www.drupal-themes.adodis.com
+ * @copyright Copyright (C) 2010 Adodis Drupal Theme
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+#search-block-form input.form-submit,
+#search-form input.form-submit {
+  text-transform: capitalize; /* Trigger text indent. */
+}
+
+.hp-cont {
+    padding-top:5px;
+}
+
+h2#node-title {
+	margin:4px 0;
+}

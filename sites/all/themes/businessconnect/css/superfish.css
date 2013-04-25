@@ -1,0 +1,127 @@
+/**
+ * @package Business Connect Business Theme - Adodis Drupal Theme
+ * @version 1.1 April 28, 2011
+ * @author Adodis Theme http://www.drupal-themes.adodis.com
+ * @copyright Copyright (C) 2010 Adodis Drupal Theme
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+
+#menu #naviagtion_menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu #naviagtion_menu a {
+	display: block;
+	padding: 8px 35px;
+	margin:0 2px 0 1px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;;
+	text-decoration: none;
+	outline: none;
+	font-weight:bold;
+	color:#000000;
+}
+
+#menu #naviagtion_menu li a.active, #menu #naviagtion_menu li a:hover, #menu #naviagtion_menu li:hover a, #menu #naviagtion_menu li.active-trail a {
+		background:url(../images/smun-bg.gif) repeat-x;
+		color: #FFFFFF;
+}
+
+#menu #naviagtion_menu li {
+	float: left;
+	list-style: none;
+}
+#menu #naviagtion_menu ul li {
+	background:url(../images/mnu-spe.gif) no-repeat right center;
+}
+#menu #naviagtion_menu ul li.last {
+	background:none;
+}
+#menu #naviagtion_menu li ul li {
+	margin:0;
+}
+
+#menu #naviagtion_menu li:hover, #menu #naviagtion_menu li.active-trail {
+
+}
+
+/*** First Level menu ****/
+
+#menu #naviagtion_menu li ul {
+	background:#E2E2E2;
+    border: 1px solid #FFFFFF;
+    margin: 0 0 0 0;
+    position: absolute;
+    width: 208px;
+    z-index: 100;
+    left: -999em;
+    margin-left:-2px;
+
+}
+
+#menu #naviagtion_menu li:hover ul {
+	left: auto;
+}
+
+#menu #naviagtion_menu li ul li a {
+	font-size:12px;
+}
+
+#menu #naviagtion_menu li ul li a {
+    margin: 0;
+    padding: 7px 11px;
+    width: 182px;
+}
+
+#menu #naviagtion_menu li li ul li a {
+    margin: 0;
+    padding: 7px 11px;
+    width: 182px;
+}
+
+#menu #naviagtion_menu li ul li a:hover, #menu #naviagtion_menu li ul li a.active,
+ #menu #naviagtion_menu li ul li.active-trail a.active-trail, #menu #naviagtion_menu li ul li:hover a,
+ #menu #naviagtion_menu li:hover ul li a:hover,  #menu #naviagtion_menu li:hover ul li a.active,
+ #menu #naviagtion_menu li ul li.expanded:hover a, #menu #naviagtion_menu li ul li.expanded:hover li a:hover,
+ #menu #naviagtion_menu li ul li.expanded:hover li a.active-trail,
+  #menu #naviagtion_menu li ul li.sfHover a
+{
+	background:url(../images/smun-bg.gif) repeat;
+	color:#fff;
+}
+
+#menu #naviagtion_menu li ul li.expanded:hover a {
+	border-right:none;
+}
+
+#menu #naviagtion_menu li ul li {
+	background:url(../images/lilispe.gif) repeat-x bottom left;
+	padding:2px;
+}
+
+#menu #naviagtion_menu li:hover ul li a, #menu #naviagtion_menu li ul li.expanded:hover li a {
+	color:#544645;
+	background:none;
+}
+
+/*** Second Level menu ****/
+#menu #naviagtion_menu li ul ul {
+	position: absolute;
+	width: 208px;
+    margin-left: 204px;
+    margin-top: -35px;
+	left: -999em;
+	z-index: 100;
+	background:#E2E2E2;
+    border: 1px solid #FFFFFF;
+}
+
+#menu #naviagtion_menu li:hover ul li:hover ul {
+	left: auto;
+}
+#menu #naviagtion_menu li:hover ul ul,#menu #naviagtion_menu li.sfhover ul ul {
+	left: -999em;
+}

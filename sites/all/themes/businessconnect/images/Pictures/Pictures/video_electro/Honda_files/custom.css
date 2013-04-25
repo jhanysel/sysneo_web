@@ -1,0 +1,67 @@
+/*
+	Top Navigation Bar - Car Models 
+*/
+.slider ul {
+  height:165px;
+}
+
+.slider ul li {
+  width:145px;
+}
+
+/*
+	Bottom Slider - Home banners
+*/
+.panel_thumb
+{
+	padding-top: 5px; padding-left:15px;
+	font-family: "Calibri", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	z-index:11;
+	padding-left:35%;
+}
+
+.panel_thumb a
+{
+	text-decoration: none;
+}
+
+.font_calibri
+{
+	font-family: "Calibri", Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+.thumbnail
+{
+	float: left;
+	width: 55px;
+	text-align: center;
+	/*border: 1px solid #ccc;*/
+}
+
+/*
+.thumbnail:hover {
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+*/
+
+.banner_img
+{
+	border: 2px solid #ccc;
+	z-index:10;
+}
+
+.thumbnail:hover img
+{
+	border: 2px solid #900;
+}
+
+.thumb_spliter
+{
+	float: left;
+	padding-left: 5px;
+}

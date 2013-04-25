@@ -1,0 +1,12 @@
+; $Id: slider.info$
+name = Slider
+description = "Jquery based slider."
+version = 7.1
+
+files[] = slider.module
+files[] = slider.install
+
+core = "7.x"
+project = "slider"
+
+

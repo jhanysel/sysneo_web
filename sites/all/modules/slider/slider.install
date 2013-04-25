@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @package Slider - Adodis Drupal Theme
+ * @version 1.1 November 25, 2010
+ * @author Adodis Theme http://www.drupal-themes.adodis.com
+ * @copyright Copyright (C) 2010 Adodis Drupal Theme
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/**
+ * Implementation of hook_schema().
+ */
+
+function slider_schema() {
+  $schema['slider_upload'] = array(
+  	  'description' => 'base table for slider',
+      'fields' => array(
+         'id' => array(
+			   'type' => 'serial',
+			   'unsigned' => TRUE,
+			   'not null' => TRUE,
+			   ),
+         'title' => array(
+			   'type' => 'varchar',
+			   'length' => 128,
+			   'not null' => TRUE,
+			   'default' => ''),
+         'image_path' => array(
+			   'type' => 'varchar',
+			   'length' => 128,
+			   'not null' => TRUE,
+			   'default' => ''),
+
+		 'path' => array(
+			   'type' => 'varchar',
+			   'length' => 128,
+			   'not null' => TRUE,
+			   'default' => '')),
+
+		'primary key' => array('id'),
+
+  );
+  return $schema;
+}
+
+
+
